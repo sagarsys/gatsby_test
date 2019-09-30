@@ -1,6 +1,15 @@
 
 [Demo](http://worried-oranges.surge.sh)
 
+### Deployment
+[Surge](https://surge.sh/) is used to deploy. 
+```npm
+npm i -g surge
+npm run build
+npm run deploy
+```
+- **Note:** Assumes a `CNAME` file is present in the public directory.
+
 --------------------------------------------------------------------------
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
