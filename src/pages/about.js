@@ -1,8 +1,7 @@
 import React from "react"
-import styles from "./about.module.css";
+import styles from "./about.module.css"
 import Header from "../components/header"
 import Container from "../components/container"
-import { Link } from "gatsby"
 
 const User = props => (
   <div className={styles.user}>
@@ -16,7 +15,6 @@ const User = props => (
 
 export default () => (
   <Container>
-    <Link to="/">Home</Link>
     <Header headerText="About Gatsby" />
     <p>Such wow. Very React.</p>
     <User
